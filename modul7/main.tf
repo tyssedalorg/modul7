@@ -13,7 +13,7 @@ provider "azurerm" {
 }
 
 locals {
-common_tags = {
+  common_tags = {
     owner      = var.student_id
     course     = "iac"
     module     = "modul7"

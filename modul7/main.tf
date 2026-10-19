@@ -17,7 +17,7 @@ common_tags = {
     owner      = var.student_id
     course     = "iac"
     module     = "modul7"
-    managed_by = "pipeline2"
+    managed_by = "pipeline4"
   }
 }
 

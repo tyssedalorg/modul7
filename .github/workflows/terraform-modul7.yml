@@ -54,7 +54,7 @@ jobs:
             -backend-config=backend.hcl \
             -backend-config="key=modul7/dev/network.tfstate"
       - run: terraform plan -var-file="dev.tfvars" -no-color
-apply-dev:
+  apply-dev:
     needs: build
     if: github.event_name == 'push'
     runs-on: ubuntu-latest

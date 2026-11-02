@@ -17,7 +17,7 @@ locals {
     owner      = var.student_id
     course     = "iac"
     module     = "modul7"
-    managed_by = "pipeline45"
+    managed_by = "pipelines45"
   }
 }
 
